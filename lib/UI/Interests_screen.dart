@@ -12,11 +12,12 @@ class InterestsScreenState extends State<InterestsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title:  const Text('Interests'),
+        appBar: AppBar(title:  const Text('Interests')),
         body: Column(
-          
+          children: <Widget>[
+            Text(title: const Text(''))
+          ],  
         )
-      )
     );
   }
   
