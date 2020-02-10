@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import './UI/Interests_screen.dart';
+import './UI/Free_screen.dart';
 
 void main() {
   SystemChrome.setPreferredOrientations([
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: InterestsScreen(),
+      home: FreeScreen(),
     );
   }
 }
