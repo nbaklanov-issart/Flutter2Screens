@@ -288,7 +288,9 @@ class FreeScreenState extends State<FreeScreen> {
                               side: BorderSide(color: Color(0xFF5E5CDB))
                             ), 
                             child: Text("PREV", style: TextStyle(color: Color(0xFF5E5CDB))), 
-                            onPressed: () {},                            
+                            onPressed: () {
+                              Navigator.of(context).pop();  
+                            },                            
                           ),
                           RaisedButton(
                             shape: RoundedRectangleBorder(
